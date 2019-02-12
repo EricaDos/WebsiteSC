@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head, Meta and Links -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  Style Sheets -->
+
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--  Allows the overriding of the bootstrap stylesheet-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+
+    <!--  JavaScript -->
+    <link rel="JavaScript" href="js/jsheet.js">
+    <link rel="JavaScript" href="js/bootstap.bundle.min.js">
+    <link rel="JavaScript" href="js/bootstrap.min.js">
+
+  </head>
+
+  <!--  Body -->
+  <body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+
+
+ <!--  Footer -->
+  <footer>
+    <div id="footer-placeholder">
+    </div>
+  </footer>
+  <!--  jQuery [Place at the end for rendering!] -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+     crossorigin="anonymous"></script>
+  <script>
+  $(function(){
+        $("#nav-placeholder").load("navbar-v2.html");
+        $("footer-placeholder").load("footer-template.html");
+  });
+  </script>
+
+</body>
+</html>
